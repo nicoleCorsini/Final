@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Golden Gobie Resort and Spa</title>
+    <!-- TO DO:add your name to the meta author tag -->
+    <meta name="author" content="Nicole Leal-Corsini">
+    <meta name="description" content="Final Project">
+
+     <!-- A FAVICON -->
+    <!-- TO DO: add the favicon here -->
+    <link rel="shortcut icon" href="images/images1/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/images1/favicon.ico" type="image/x-icon">
+
+      <!-- GOOGLE FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+            
+     <!-- CSS STYLESHEET -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Your Resort Name</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN - CHOICE OF LAYOUT 1 or 2 -->
+    <main>
+
+        <section class="hero">
+            <!-- Set the background image using CSS -->
+        </section>
+
+        <section class="content">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+
+            <!-- Choose the appropriate image based on the layout choice -->
+            <img src="images/images1/swiss-peak.jpg" alt="Swiss Peak Image">
+
+            <!-- Form Controls -->
+            <form action="#" method="post">
+                <table>
+                  <tr>
+                    <td>
+                      <label for="fullName">Full Name *</label>
+                    </td>
+                    <td>
+                      <input type="text" id="fullName" name="fullName" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="email">Email Address *</label>
+                    </td>
+                    <td>
+                      <input type="email" id="email" name="email" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="phone">Phone Number *</label>
+                    </td>
+                    <td>
+                      <input type="tel" id="phone" name="phone" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="contactMethod">Preferred Contact Method *</label>
+                    </td>
+                    <td>
+                      <input type="radio" id="email_radio" name="preferred_contact_radio" required>
+                      <label for="email_radio">Email</label><br>
+                      <input type="radio" id="phone_radio" name="preferred_contact_radio" required>
+                      <label for="phone_radio">Phone</label><br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="comments">Comments *</label>
+                    </td>
+                    <td>
+                      <textarea id="comments" name="comments" required></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" id="submitBtn">
+                      <input type="submit" value="Submit">
+                    </td>
+                  </tr>
+                </table>
+              </form>
+              
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Copyright ©2023 - Your Resort Name</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+
+</html>
